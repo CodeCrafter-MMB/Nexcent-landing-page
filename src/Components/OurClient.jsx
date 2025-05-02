@@ -7,8 +7,8 @@ import client5 from '../assets/images/client-5.svg';
 import client6 from '../assets/images/client-6.svg';
 import client7 from '../assets/images/client-7.svg';
 import membershipIcon from '../assets/images/icon.svg';
-import nationalIcon from '../assets/images/icon 2.svg';
-import clubsIcon from '../assets/images/icon 3.svg';
+import nationalIcon from '../assets/images/icon2.svg';
+import clubsIcon from '../assets/images/icon3.svg';
 
 const OurClient = () => {
   return (
