@@ -6,9 +6,9 @@ import client4 from '../assets/images/client-4.svg';
 import client5 from '../assets/images/client-5.svg';
 import client6 from '../assets/images/client-6.svg';
 import client7 from '../assets/images/client-7.svg';
-import membershipIcon from '../assets/images/icon.svg';
-import nationalIcon from '../assets/images/icon2.svg';
-import clubsIcon from '../assets/images/icon3.svg';
+import icon from '../assets/images/icon.svg';
+import icon1 from '../assets/images/icon2.svg';
+import icon2 from '../assets/images/icon3.svg';
 
 const OurClient = () => {
   return (
@@ -44,7 +44,7 @@ const OurClient = () => {
           {/* Membership Organizations */}
           <div className="text-center p-6">
             <div className="flex justify-center mb-4">
-              <img src={membershipIcon} alt="Membership" className="h-16 w-16" />
+              <img src={icon} alt="Membership" className="h-16 w-16" />
             </div>
             <h3 className="text-xl font-semibold text-[#263238] mb-3">
               Membership Organizations
@@ -57,7 +57,7 @@ const OurClient = () => {
           {/* National Associations */}
           <div className="text-center p-6">
             <div className="flex justify-center mb-4">
-              <img src={nationalIcon} alt="National Associations" className="h-16 w-16" />
+              <img src={icon1} alt="National Associations" className="h-16 w-16" />
             </div>
             <h3 className="text-xl font-semibold text-[#263238] mb-3">
               National Associations
@@ -70,7 +70,7 @@ const OurClient = () => {
           {/* Clubs and Groups */}
           <div className="text-center p-6">
             <div className="flex justify-center mb-4">
-              <img src={clubsIcon} alt="Clubs and Groups" className="h-16 w-16" />
+              <img src={icon2} alt="Clubs and Groups" className="h-16 w-16" />
             </div>
             <h3 className="text-xl font-semibold text-[#263238] mb-3">
               Clubs And Groups
